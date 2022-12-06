@@ -1,18 +1,12 @@
 with open('input.txt') as f:
-    steps = f.read().splitlines()
-    for i in range(len(steps)):
-        if steps[i] == '':
+    lines = f.read().splitlines()
+    for i in range(len(lines)):
+        if lines[i] == '':
             break
-    steps = steps[i+1:]
+    steps = lines[i+1:]
+    data = lines[:i]
     for i in range(len(steps)):
         steps[i] = steps[i].replace("move ", "").replace(" from ", ",").replace(" to ", ",").split(",")
-
-with open('input.txt') as f:
-    data = f.read().splitlines()
-    for i in range(len(data)):
-        if data[i] == '':
-            break
-    data = data[:i]
 
 for i in range(len(data)):
     data[i] = [data[i][j:j+4] for j in range(0, len(data[i]), 4)]
