@@ -1,4 +1,4 @@
-## --- Day 6: Tuning Trouble ---
+## **--- Day 6: Tuning Trouble ---**
 
 The preparations are finally complete; you and the Elves leave camp on foot and begin to make your way toward the **star** fruit grove.
 
@@ -31,7 +31,7 @@ Here are a few more examples:
 
 **How many characters need to be processed before the first start-of-packet marker is detected?**
 
-## --- Part Two ---
+## **--- Part Two ---**
 
 Your device's communication system is correctly detecting packets, but still isn't working. It looks like it also needs to look for **messages**.
 
