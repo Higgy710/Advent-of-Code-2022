@@ -1,4 +1,4 @@
-## --- Day 10: Cathode-Ray Tube ---
+# --- Day 10: Cathode-Ray Tube ---
 
 You avoid the ropes, plunge into the river, and swim to shore.
 
@@ -192,7 +192,6 @@ The interesting signal strengths can be determined as follows:
 The sum of these signal strengths is 13140.
 
 Find the signal strength during the 20th, 60th, 100th, 140th, 180th, and 220th cycles. **What is the sum of these six signal strengths?**
-
 
 ## --- Part Two ---
 
